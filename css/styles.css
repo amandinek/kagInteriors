@@ -23,5 +23,8 @@ li > a{
 .card-title > a:hover ,li > a:hover{
     color: rgba(228, 120, 51, 1);
 } 
+.list-group-item{
+    border-top:none; 
+}
 
 /********************************************End of section 1*****************************/
