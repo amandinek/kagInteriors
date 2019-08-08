@@ -1,0 +1,348 @@
+*{
+  box-sizing: border-box;
+}
+/* ************************************Section 1********************************* */
+
+.section-1 a{
+    font-family: 'Titan One', cursive;
+    
+}
+.section-1 .navbar-brand{
+    padding-left: 20px;
+    color: rgba(228, 120,51, 1);
+}
+.section-1 .nav-link:hover{
+   color:gray;
+}
+.section-1 .nav-link{
+    color: rgba(228, 120,51, 1);
+    position: relative;
+    left: 500px;
+}
+/* ********************************************section 2******************************* */
+
+.section-2 h3{
+  color:gray;
+  font-family: 'Titan One', cursive;
+}
+.head{
+    position: relative;
+    font-family: 'Norican', cursive;
+}
+
+/* *******************************************Section-3***********************************************8 */
+.section-3 .card{
+    position: relative;
+     widows: 300px;
+    margin: 30px;
+}
+.section-3 h3{
+  color:gray;
+  font-family: 'Titan One', cursive;
+}
+   .card .btn{
+    background-color: rgba(228, 120,51, 1); 
+   }
+/* *******************************************Section-4***********************************************8 */
+   .section-4 .btn{
+    background-color: rgba(228, 120,51, 1);
+    width: 10%;
+       }
+       .section-4 h3{
+      color:gray;
+        font-family: 'Titan One', cursive;
+       }
+/* *******************************************Section-5***********************************************8 */
+   .section-5 h3{
+    color: gray;
+    font-family: 'Titan One', cursive;
+   }
+.col-md-2 a{
+color: black;
+   }
+   .col-md-3 a{
+    color: black;
+   }
+   .col-md-3 a:hover{
+    color: rgba(228, 120,51, 1); 
+   }
+   .col-md-2 a:hover{
+    color: rgba(228, 120,51, 1); 
+   }
+   .foot-name{
+    font-family: 'Titan One', cursive;
+    color: rgba(228, 120,51, 1); 
+   }
+   /* ***************************Sub-section-5************************************** */
+   #contact{
+    margin-top:50px;
+    margin-left:30px;
+   padding:30px;
+   color:white;
+   border: 2px solid white;
+ }
+ .sb{
+   padding-left:200px;
+   margin-top: 30px;
+ }
+ .cmt{
+    margin-top:50px;
+ }
+ #data{
+   padding:10px;
+   margin-top: 20px;
+   margin-right:100px;
+   height:200px;
+   width:450px;
+ }
+ .hd{
+   margin-top:50px;
+ }
+ ul > li{
+   text-decoration: none;
+   list-style-type: none;
+ }
+ #mess{
+   margin:20px;
+ }
+ #ms{
+   border-bottom:solid grey;
+   margin:20px;
+ }
+ 
+ 
+
+   /* **********************************Section-6*************************************/
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: rgba(228, 120,51, 1);
+        color: white;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: 20%;
+    padding: 8px 10px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+ 
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 40%;
+    }
+  }
+  /* ********************************************************************** */
+  /* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: rgba(228, 120,51, 1);
+  color: white;
+  padding: 6px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 8px 8px;
+  background-color:rgba(228, 120,51, 1);
+  padding-left: 50px;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 20%;
+  
+
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color:rgba(228, 120,51, 1);
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+  /* .section-6{
+    display: none;
+  }
+  .section-7{
+    display: none;
+  } */
