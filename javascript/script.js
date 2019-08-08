@@ -1,4 +1,17 @@
-Honorine
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+// $(document).submit(function(){
+
+
+// })
+// Honorine
 var firebaseConfig = {
     apiKey: "AIzaSyBQeWhFSZ1tR_F48QQZg5unQnpkHbwixKQ",
     authDomain: "my-dbase.firebaseapp.com",
@@ -21,6 +34,9 @@ function getData(){
   ref.push(data);
 }
 $(document).ready(function(){
+  $(".btn").click(function(){
+    $("#id01").show();
+})
   $('#submitbtn').click(function(){
     var fullname=$('#fname').val();;
     var  email=$('#mail').val();
@@ -31,11 +47,6 @@ $(document).ready(function(){
     email=$('#mail').val('');
     message=$('#msge').val('');
     });
-
-
-});
-
-$(document).ready(function () {
     // $("#frm-0").submit(function(event){ 
     //     event.preventDefault();
    $(".interior-design").click(function(){
@@ -46,4 +57,3 @@ $(document).ready(function () {
         alert('Thank you for ordering we will contact you.');
     })
 })
- master
