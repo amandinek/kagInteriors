@@ -21,7 +21,10 @@
 }
 /* ********************************************section 2******************************* */
 
-
+.section-2 h3{
+  color:gray;
+  font-family: 'Titan One', cursive;
+}
 .head{
     position: relative;
     font-family: 'Norican', cursive;
@@ -33,8 +36,10 @@
      widows: 300px;
     margin: 30px;
 }
-
-  
+.section-3 h3{
+  color:gray;
+  font-family: 'Titan One', cursive;
+}
    .card .btn{
     background-color: rgba(228, 120,51, 1); 
    }
@@ -43,8 +48,16 @@
     background-color: rgba(228, 120,51, 1);
     width: 10%;
        }
+       .section-4 h3{
+      color:gray;
+        font-family: 'Titan One', cursive;
+       }
 /* *******************************************Section-5***********************************************8 */
-   .col-md-2 a{
+   .section-5 h3{
+    color: gray;
+    font-family: 'Titan One', cursive;
+   }
+.col-md-2 a{
 color: black;
    }
    .col-md-3 a{
