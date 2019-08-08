@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>kagInteriors</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    </head>
+    <body>
+            <script src="javascript/jquery-3.4.1.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-database.js"></script> 
+           <script src="javascript/script.js"></script>
+        
+
+<div class="row">
+        <div class="col-md-6">
+                <form id="contact">
+                        <div class="form-contact">
+                            
+                            <div class="row">
+                               
+                                <div class="col-md-6">
+                                   
+                                    <label class="control-label " for="fname"></label>
+                                    <input class="form-control" placeholder="Your Full Name..."id="fname" name="fname" type="text" required/><br>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="control-label requiredField" for="email"><span class="asteriskField"></span></label>
+                                    <input class="form-control" placeholder="Email..."id="mail" name="email" type="email" required/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-contac">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label class="control-label " for="message"></label>
+                                    <textarea input class="form-control" placeholder= "Your message here..."cols="20" id="msge" name="message" rows="5"required></textarea>
+                                </div>
+                               
+                            </div>
+                        </div>
+                </form>
+                
+                        <div class='sb'>
+                                <button onclick="getData()" name="submit" type="submit" id="submitbtn">Post a comment</button>     
+                        </div>
+                
+                
+                
+            
+        </div>
+        
+        <div class="col-md-6">
+            <div class="hd"><h7> <span id="cmt">Recent Comment from our customers</span></h7></div>
+                <div id="data">
+                 <div class="list">
+                        <!-- <h4>Recent Comment from our customers</h4> -->
+                     <ul id="list">
+
+                     </ul>
+
+                 </div>
+              
+                <!-- <h6>comment from:<span id="mess"></span></h6>
+                    <p><span id="message"></span> </p> -->
+                     <!-- <p> <a href="">Read more</a></p> -->
+         </div> 
+        
+       
+    </div>
+</body>
+</html>
