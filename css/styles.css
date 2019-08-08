@@ -375,16 +375,16 @@ h5,p,h2{
     color: rgba(228, 120, 51, 1);
  }
  .sec2{
-     margin-top: 50px; 
-     padding-left: 150px;
+     /* margin-top: 50px; 
+     padding-left: 150px; */
      text-align: center;
  }
  
  /***************************************************/
- /* header{
+ header{
     margin-bottom: 50px;
     border-bottom: 1px solid grey;
- } */
+ }
  h5,p{
     color: rgba(0, 0, 0, 0.8);
  }
