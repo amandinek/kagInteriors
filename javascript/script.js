@@ -7,6 +7,9 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+$(document).submit(function(){
 $(".btn").click(function(){
-    $("#sect-6").show();
+    $("#id01").show();
+})
+
 })
