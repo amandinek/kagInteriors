@@ -3,7 +3,7 @@ header{
     margin-bottom: 50px;
     border-bottom: 1px solid grey;
 }
-h5,p{
+h5,p,h2{
     color: rgba(0, 0, 0, 0.8);
 }
 .section-1 a{
