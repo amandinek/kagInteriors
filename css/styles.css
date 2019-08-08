@@ -1,3 +1,116 @@
+ Joselyne
+/* .form-1{
+    display: none;
+} */
+.form-0{
+    display: none;
+}
+/* .interior-design{
+    position: fixed;
+} */
+/* }
+.click{
+    position: relative;
+} */
+
+.card-title > a{
+    color: rgba(0, 0, 0, 0.9);;
+ }
+ li > a,.text-center{
+    color: grey;
+ }
+ .card-title > a:hover ,li > a:hover{
+    color: rgba(228, 120, 51, 1);
+ }
+ .sec2{
+     margin-top: 50px;
+     padding-left: 150px;
+     /* text-align: center; */
+ }
+ /***************************************************/
+ header{
+    margin-bottom: 50px;
+    border-bottom: 1px solid grey;
+ }
+ h5,p{
+    color: rgba(0, 0, 0, 0.8);
+ }
+ .section-1 a{
+    font-family: 'Titan One', cursive;
+ }
+ .section-1 .navbar-brand{
+    padding-left: 20px;
+    color: rgba(228, 120,51, 1);
+ }
+ .section-1 .nav-link:hover{
+   color:gray;
+ }
+ .section-1 .nav-link{
+    color: rgba(228, 120,51, 1);
+    position: relative;
+    left: 600px;
+ }
+ .col-md-2 a{
+    color: black;
+      }
+      .col-md-3 a{
+       color: black;
+      }
+      .col-md-3 a:hover{
+       color: rgba(228, 120,51, 1);
+      }
+      .col-md-2 a:hover{
+       color: rgba(228, 120,51, 1);
+      }
+ /********************************************End of header********************************/
+ /***********************************************all htmls*********************************/
+ .sec2{
+    margin-left: 90px;
+ }
+ .card-title > a{
+    color: rgba(0, 0, 0, 0.9);;
+ }
+ li > a,.text-center{
+    color: grey;
+ }
+ .card-title > a:hover ,li > a:hover{
+    color: rgba(228, 120, 51, 1);
+ }
+ h3{
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    color: gray
+ }
+ #s,.meet{
+     text-align: center;
+    font-family: 'Titan One', cursive;
+    color: rgba(228, 120,51, 1);
+ }
+ .art-work,.bedding,.kitchenF,.bathA{
+    margin-top: 40px;
+ }
+ .home-decor,.bed-decor,.kitchenA,.bathF{
+ border-top: 1px solid grey;
+ margin-top: 60px;
+ padding-top: 40px;
+ }
+ h5{
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    color: gray;
+ }
+ .row,.section-5{
+    margin-top: 50px;
+ }
+ .input-group{
+     padding-right:300px;
+     padding-left: 50px;
+ }
+ h2{
+     text-align: center;
+ }
+ 
+
 .room{
     display: flex;
     flex-direction: row;
@@ -61,3 +174,4 @@ h3{
   }
   
   
+master
