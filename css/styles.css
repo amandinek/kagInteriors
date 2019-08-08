@@ -312,8 +312,46 @@ hr {
   .section-7{
     display: none;
   } */
- annick
- annick
+Honorine
+#contact{
+    margin-top:50px;
+    margin-left:30px;
+   padding:30px;
+   color:white;
+   background-image:url('../image/back1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* border: 2px solid white; */
+}
+.sb{
+   padding-left:200px;
+   margin-top: 30px;
+}
+#cmt{
+    margin-top:100px; 
+}
+#data{
+   padding:10px;
+   margin-top: 20px;
+   margin-right:100px;
+   height:200px;
+   width:450px;
+}
+.hd{
+   margin-top:50px;   
+}
+ul > li{
+   text-decoration: none;
+   list-style-type: none;
+ }
+#mess{
+   margin:20px;
+}
+#ms{
+   border-bottom:solid grey;
+   margin:20px;
+}
+
 /***********************************************header************************************/
 header{
     margin-bottom: 50px;
@@ -387,7 +425,9 @@ h5,p,h2{
       .col-md-2 a:hover{
        color: rgba(228, 120,51, 1);
       }
-annick
+ Honorine
+ 
+ /* #s{} */
 
 
 /********************************************End of header********************************/
@@ -481,6 +521,22 @@ h5{
  .row,.section-5{
     margin-top: 50px;
  }
+ Honorine
+ h3{
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    color: rgba(228, 120,51, 1);
+    padding-top:60px; 
+ }
+ .row1{
+   
+     margin-left: 400px;
+ }
+ .lista{
+
+    margin-right:400px;
+ }
+
  .input-group{
      padding-right:300px;
      padding-left: 50px;
