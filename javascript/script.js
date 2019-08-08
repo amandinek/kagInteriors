@@ -25,12 +25,11 @@ $(document).ready(function(){
     var  email=$('#mail').val();
     var message=$('#msge').val();
     $('ul#list').append("<li id='mess'>Comment from:<strong>"+fullname+"</strong></li>") 
-   $('ul#list').append("<li id='ms' >"+ message+"</li>")
-  
-     fullname=$('#fname').val('');;
-     email=$('#mail').val('');
-     message=$('#msge').val('');
-  });
+    $('ul#list').append("<li id='ms' >"+ message+"</li>")
+    fullname=$('#fname').val('');;
+    email=$('#mail').val('');
+    message=$('#msge').val('');
+    });
 
 
 });
