@@ -1,3 +1,4 @@
+ annick
 /***********************************************header************************************/
 header{
     margin-bottom: 50px;
@@ -85,3 +86,68 @@ h5{
 }
 
 /********************************************all indexl*****************************/
+
+.room{
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    text-align: center;
+    font-family: "Titan one","cursive";
+}
+.section-1 a{
+    font-family: 'Titan One', cursive;}
+  .section-1 .navbar-brand{
+    padding-left: 20px;
+    color: rgba(228, 120,51, 1);
+  }
+  .section-1 .nav-link:hover{
+   color:gray;
+  }
+  .section-1 .nav-link{
+    color: rgba(228, 120,51, 1);
+    position: relative;
+    left: 600px;
+  }
+  .col-md-2 a{
+    color: black;
+     }
+     .col-md-3 a{
+      color: black;
+     }
+     .col-md-3 a:hover{
+      color: rgba(228, 120,51, 1);
+     }
+     .col-md-2 a:hover{
+      color: rgba(228, 120,51, 1);
+     }
+     #rows{
+       margin-left: 100px;
+     }
+     h8>a{
+      color: rgba(228, 120,51, 1);
+     }
+
+  h8>a:hover{
+    color:gray; 
+  }
+  .carousel-item >img{
+    width:100%;
+    height: 580px;
+  }
+  .carousel-caption>p{
+    padding-top: 200px;
+   
+  }
+  .carousel-caption>h5{
+    color: rgba(228, 120,51, 1);
+    font-family:"Norican","cursive";
+    font-size: 50px;
+  }
+  .foot{
+    color:rgba(228, 120,51, 1);
+    font-family: 'Titan One',cursive;
+  }
+  
+  
+ master
