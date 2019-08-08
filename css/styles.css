@@ -312,7 +312,7 @@ hr {
   .section-7{
     display: none;
   } */
-Honorine
+/* Honorine */
 #contact{
     margin-top:50px;
     margin-left:30px;
@@ -361,19 +361,9 @@ h5,p,h2{
     color: rgba(0, 0, 0, 0.8);
 }
 
-/* .form-1{
-    display: none;
-} */
 .form-0{
     display: none;
 }
-/* .interior-design{
-    position: fixed;
-} */
-/* }
-.click{
-    position: relative;
-} */
 
 .card-title > a{
     color: rgba(0, 0, 0, 0.9);;
@@ -385,15 +375,16 @@ h5,p,h2{
     color: rgba(228, 120, 51, 1);
  }
  .sec2{
-     margin-top: 50px;
+     margin-top: 50px; 
      padding-left: 150px;
-     /* text-align: center; */
+     text-align: center;
  }
+ 
  /***************************************************/
- header{
+ /* header{
     margin-bottom: 50px;
     border-bottom: 1px solid grey;
- }
+ } */
  h5,p{
     color: rgba(0, 0, 0, 0.8);
  }
@@ -425,7 +416,7 @@ h5,p,h2{
       .col-md-2 a:hover{
        color: rgba(228, 120,51, 1);
       }
- Honorine
+ /* Honorine */
  
  /* #s{} */
 
@@ -521,7 +512,7 @@ h5{
  .row,.section-5{
     margin-top: 50px;
  }
- Honorine
+ /* Honorine */
  h3{
     text-align: center;
     font-family: 'Titan One', cursive;
@@ -545,7 +536,7 @@ h5{
      text-align: center;
  }
  
- master
+ /* master */
 
 .room{
     display: flex;
