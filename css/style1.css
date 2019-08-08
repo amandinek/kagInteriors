@@ -1,0 +1,8 @@
+form{
+    background-image: url("../images/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a>img{
+    margin-left:600px;
+}
