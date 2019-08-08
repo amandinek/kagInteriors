@@ -44,12 +44,38 @@ h5,p{
 .card-title > a{
     color: rgba(0, 0, 0, 0.9);;
 }
-li > a{
+li > a,.text-center{
     color: grey;   
 }
 .card-title > a:hover ,li > a:hover{
     color: rgba(228, 120, 51, 1);
 } 
+h3{
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    color: rgba(228, 120,51, 1);
+
+}
+#s{
+    font-family: 'Titan One', cursive;
+    color: rgba(228, 120,51, 1); 
+}
+.art-work,.bedding,.kitchenF,.bathA{
+    margin-top: 40px;
+}
+.home-decor,.bed-decor,.kitchenA,.bathF{
+ border-top: 1px solid grey;
+ margin-top: 60px;
+ padding-top: 40px;
+}
+h5{
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    color: gray;
+}
+.row,.section-5{
+    margin-top: 50px;
+}
 
 /********************************************all htmls*****************************/
 
